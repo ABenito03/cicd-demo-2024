@@ -1,6 +1,9 @@
 name: Primer workflow
 
-on: push
+on:
+  push:
+    branches:
+      - nuevafeature
 
 jobs:
   test:
@@ -28,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ABenito03/holamundo
-        
+          tags: abenito03/holamundo
+   
