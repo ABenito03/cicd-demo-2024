@@ -31,5 +31,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: abenito03/holamundo
+          tags: ABenito03/holamundo
    
